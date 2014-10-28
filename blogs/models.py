@@ -21,4 +21,8 @@ class Post(models.Model):
 
 	view_count = models.IntegerField(default=0, editable=False)
 
+	# def save(self, *args, **kwargs):
+ #        print dir(self)
+ #        super(Model, self).save(*args, **kwargs)
+
 
